@@ -1,0 +1,51 @@
+* {
+    margin: 0 auto;
+}
+
+/*--------------Topo--------------*/
+
+.caixa {
+    display: flex;
+}
+p{
+font-size: 132.5%;
+text-align: center ;
+
+}
+a {
+    font-size: 150%;
+    color: gray;
+    margin: 1.5%;
+    margin-top: 4.25%;
+    margin-left: 2%;
+    text-decoration: none;
+}
+
+#topo {
+    background: url(fundo_header.png);
+    border: solid gray 3px;
+}
+
+
+#logo {
+    width: 12.5%;
+    margin-left: 65%;
+    margin-bottom: 1%;
+}
+
+#inputs{
+text-align: center;
+font-size: 30px;
+}
+
+/*--------------Meio--------------*/
+#meio {
+    border: solid gray 3px;
+}
+
+
+/*--------------Chão--------------*/
+#chao {
+    background: url(fundo_header.png);
+    border: solid gray 3px;
+}
