@@ -2,17 +2,20 @@
     margin: 0 auto;
 }
 
+
+
 /*--------------Topo--------------*/
 
 .caixa {
     display: flex;
 }
+
 p{
 font-size: 132.5%;
 text-align: center ;
-
 }
-a {
+
+a{
     font-size: 150%;
     color: gray;
     margin: 1.5%;
