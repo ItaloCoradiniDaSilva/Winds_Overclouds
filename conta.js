@@ -9,6 +9,7 @@ var confirmadorLogado = 1;
 
 const dateHoje = new Date();
 const dataFormatada = dateHoje.toLocaleDateString('pt-BR');
+console.log(dataFormatada);
 
 btRegistrar.addEventListener("click", confirmarRegistro)
 
