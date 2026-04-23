@@ -3,7 +3,7 @@ const vetUsuario = JSON.parse(localStorage.getItem("usuarioLogado")) || [];
 const contadora = JSON.parse(localStorage.getItem("contadora")) || [];
 const outSaidaDados =  document.getElementById("saidaDados");
 
-if(contadora == 1){
+if(contadora == 0){
 const rgUsuario = vetUsuario[4];
 const dataUsuario = vetUsuario[5];
 const nomeUsuario = vetUsuario[0];

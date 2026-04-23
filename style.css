@@ -45,7 +45,24 @@ font-size: 30px;
 #meio {
     border: solid gray 3px;
 }
+.titulo{
+    text-align: center;
+    padding-top: 0.5%;
+}
+p{
+padding-top: 0.5%;
+font-size: 131.5%;
 
+}
+#informacao{
+text-align: center;
+padding-top: 1.5%;
+
+}
+h1{
+ font-size: 245%;
+font-style: italic;
+}
 
 /*--------------Chão--------------*/
 #chao {
