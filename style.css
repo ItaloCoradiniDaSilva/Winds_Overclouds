@@ -8,6 +8,9 @@
 
 .caixa {
     display: flex;
+    justify-content: space-between;
+    font-size: 150%;
+    margin-top: 1.25%;
 }
 
 p{
@@ -15,13 +18,15 @@ font-size: 132.5%;
 text-align: center ;
 }
 
-a{
-    font-size: 150%;
-    color: gray;
-    margin: 1.5%;
-    margin-top: 4.25%;
-    margin-left: 2%;
+.navegador{
     text-decoration: none;
+        color: gray;
+}
+
+#cadastro{
+    text-decoration: none;
+        color: gray;
+        font-size: 167%;
 }
 
 #topo {
@@ -31,8 +36,8 @@ a{
 
 
 #logo {
-    width: 12.5%;
-    margin-left: 65%;
+    width: 10.5%;
+    margin-left: 60%;
     margin-bottom: 1%;
 }
 
