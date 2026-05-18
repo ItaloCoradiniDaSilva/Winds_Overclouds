@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*--------------Topo--------------*/
+
+.caixa {
+    display: flex;
+    justify-content: space-between;
+    font-size: 150%;
+    margin-top: 1.25%;
+}
+
+p{
+font-size: 132.5%;
+text-align: center ;
+}
+
+.navegador{
+    display: flex;
+    text-decoration: none;
+        color: gray;
+        margin-left: 4.2%;
+
+}
+
+#cadastro{
+    text-decoration: none;
+        color: gray;
+        font-size: 167%;
+}
+
+#topo {
+    background: url(fundo_header.png);
+    border: solid gray 3px;
+}
+
+
+#logo {
+    width: 10.5%;
+    margin-left: 45%;
+    margin-bottom: 1%;
+}
+
+#inputs{
+text-align: center;
+font-size: 30px;
+}
+
+/*--------------Meio--------------*/
+#meio {
+    border: solid gray 3px;
+}
+.titulo{
+    text-align: center;
+    padding-top: 0.5%;
+}
+p{
+padding-top: 0.5%;
+font-size: 131.5%;
+
+}
+#informacao{
+text-align: center;
+padding-top: 1.5%;
+
+}
+h1{
+ font-size: 245%;
+font-style: italic;
+}
+
+/*--------------Chão--------------*/
+#chao {
+    background: url(fundo_header.png);
+    border: solid gray 3px;
+}
+
+
+
+body {
+  
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navegador:hover {
+    color: goldenrod;
+}
+
+#meio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+#inputs {
+    background-color: white;
+    width: 100%;
+    max-width: 430px;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+
+}
+
+
+.titulo {
+    color: goldenrod;
+}
+
+#meio p {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+
+#inputs h6 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: goldenrod;
+    font-size: 55%;
+}
+
+
+#inputs input {
+    width: 100%;
+    padding: 3%;
+    border: 1% solid #d1d5db;
+    border-radius: 5%;
+    outline: none;
+    font-size: 45%;
+
+}
+
+
+#inputs input:focus {
+    border-color: goldenrod;
+}
+
+
+#registrarUsuario {
+    margin-top: 15%;
+    background: goldenrod;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+#registrarUsuario:hover {
+    background: linear-gradient(90deg, gold, goldenrod);
+}
+
+
+#saida {
+    margin-top: 15px;
+    text-align: center;
+    color: green;
+    font-size: 14px;
+}
+
+#chao {
+    height: 30px;
+}
