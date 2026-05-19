@@ -204,7 +204,7 @@ padding: 0.5%;
 
 /* ---------- Tablet ---------- */
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
     .heroTexto {
         width: 70%;
     }
@@ -230,7 +230,7 @@ padding: 0.5%;
 
 /* ---------- SMARTPHONE ---------- */
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     .caixa {
         flex-direction: column;
         align-items: center;
