@@ -96,7 +96,7 @@ text-align: center;
 }
 .cardSobreInfo img {
     width: 45%;
-    object-fit: cover;
+    background-size: cover;
     border-radius: 5%;
     background-color: white;
 }
@@ -110,7 +110,7 @@ text-align: center;
 }
 .cardInfo img {
     width: 100%;
-    object-fit: cover;
+    background-size: cover;
     border-radius: 5%;
     background-color: white;
 }
@@ -234,7 +234,7 @@ padding: 0.5%;
     .caixa {
         flex-direction: column;
         align-items: center;
-        gap: 15px;
+        gap: 10%;
     }
     #logo {
         width: 35%;
