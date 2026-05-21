@@ -59,6 +59,7 @@
     font-style: italic;
 }
 .heroTexto p {
+    position: relative;
     font-size: 160%;
     margin-bottom: 5%;
     width: 80%;
