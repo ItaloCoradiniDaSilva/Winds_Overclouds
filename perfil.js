@@ -1,5 +1,5 @@
 const vetUsuario = JSON.parse(localStorage.getItem("usuarioLogado")) || [];
-const contadora = JSON.parse(localStorage.getItem("contadora")) || [];
+const contadora = JSON.parse(localStorage.getItem("contadora"));
 const outSaidaDados = document.getElementById("saidaDados");
 
 if (contadora == 1) {

@@ -3,56 +3,47 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+--cor-primaria: white;
+--cor-secundaria: goldenrod;
+--cor-tercearia: gray;
+}
 
 /*--------------Topo--------------*/
 
 .caixa {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-size: 150%;
-    margin-top: 1.25%;
+    width: 63.5%;
 }
-
-p{
-font-size: 132.5%;
-text-align: center ;
-}
-
-.navegador{
+.navegador {
     display: flex;
     text-decoration: none;
-        color: gray;
-        margin-left: 4.2%;
-
+    color: var(--cor-tercearia);
+    font-size: 100%;
+    margin-right: 2%;
 }
-
-#cadastro{
-    text-decoration: none;
-        color: gray;
-        font-size: 167%;
-}
-
-#topo {
-    background: url(fundo_header.png);
-    border: solid gray 3px;
-}
-
-
 #logo {
-    width: 10.5%;
-    margin-left: 45%;
+    width: 13.5%;
+    margin-left: 1%;
     margin-bottom: 1%;
 }
-
+#topo {
+    background: url(fundo_header.png);
+    padding: 0.5%
+}
+.navegador:hover {
+    color: var(--cor-secundaria);
+}
 #inputs{
 text-align: center;
 font-size: 30px;
 }
 
 /*--------------Meio--------------*/
-#meio {
-    border: solid gray 3px;
-}
+
 .titulo{
     text-align: center;
     padding-top: 0.5%;
@@ -75,7 +66,7 @@ font-style: italic;
 /*--------------Chão--------------*/
 #chao {
     background: url(fundo_header.png);
-    border: solid gray 3px;
+    
 }
 
 

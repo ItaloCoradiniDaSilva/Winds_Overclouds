@@ -24,7 +24,7 @@ function confirmarRegistro() {
         var emailUsuario = inEmail.value;
         var rgUsuario = inRgUsuario.value;
         var nomeUsuario = inNomeUsuario.value;
-        confirmadorLogado = 0;
+        confirmadorLogado = 1;
 
         let anoAgora = Number(dateHoje.getFullYear());
         let anoPessoa = Number(data.value.split('-')[0]);
