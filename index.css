@@ -93,6 +93,7 @@ text-align: center;
 }
 
 .cardSobreInfo {
+    text-align: center;
     background: var(--cor-primaria);
     display: flex;
     gap: 3%;

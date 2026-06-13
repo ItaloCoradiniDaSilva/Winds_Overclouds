@@ -21,101 +21,27 @@
         </nav>
     </header>
     <main id="meio">
-        <h1 class="titulo">Voos por Continente</h1>
-
-        <h2 class="titulo">América</h2>
-        <table class="tabela" border="1"; width = "30%">
-            <tr>
-                <th>Local</th>
-                <th>Destino</th>
-                <th>Preço</th>
-                <th>Duração</th>
-            </tr>
-            <tr>
-                <td>Brasil</td>
-                <td>Estados Unidos</td>
-                <td>R$ 3.200</td>
-                <td>10h</td>
-            </tr>
-            <tr>
-                <td>Argentina</td>
-                <td>Canadá</td>
-                <td>R$ 4.100</td>
-                <td>13h</td>
-            </tr>
-            <tr>
-                <td>México</td>
-                <td>Chile</td>
-                <td>R$ 2.500</td>
-                <td>8h</td>
-            </tr>
-        </table>
+        <div id="inputs">
+            <h2>Continente</h2>
+            <select id="continente">
+                <option value="América do Norte">América do Norte</option>
+                <option value="América do Sul">América do Sul</option>
+                <option value="Oceania">Oceania</option>
+                <option value="Europa">Europa</option>
+                <option value="África">África</option>
+                <option value="Ásia">Ásia</option>
+            </select>
+            <input type="button" value="Mostrar Voos" id="btMostrarVoos">
+        </div>
 
 
-        <h2 class="titulo">Europa</h2>
-        <table class="tabela" border="1"; width = "30%">
-            <tr>
-                <th>Local</th>
-                <th>Destino</th>
-                <th>Preço</th>
-                <th>Duração</th>
-            </tr>
-            <tr>
-                <td>Portugal</td>
-                <td>França</td>
-                <td>R$ 1.200</td>
-                <td>2h30</td>
-            </tr>
-            <tr>
-                <td>Espanha</td>
-                <td>Alemanha</td>
-                <td>R$ 1.500</td>
-                <td>3h</td>
-            </tr>
-            <tr>
-                <td>Itália</td>
-                <td>Reino Unido</td>
-                <td>R$ 1.800</td>
-                <td>2h45</td>
-            </tr>
-        </table>
+        <div class="container">
+            <p id="outSaidaVoos"></p>
+        </div>
+        <footer id="chao">
+        </footer>
 
-
-        <h2 class="titulo">Ásia</h2>
-        <table class="tabela" border="1"; width = "30%">
-            <tr>
-                <th>Local</th>
-                <th>Destino</th>
-                <th>Preço</th>
-                <th>Duração</th>
-            </tr>
-            <tr>
-                <td>Japão</td>
-                <td>Coreia do Sul</td>
-                <td>R$ 1.000</td>
-                <td>2h</td>
-            </tr>
-            <tr>
-                <td>China</td>
-                <td>Tailândia</td>
-                <td>R$ 1.700</td>
-                <td>4h</td>
-            </tr>
-            <tr>
-                <td>Índia</td>
-                <td>Emirados Árabes</td>
-                <td>R$ 2.200</td>
-                <td>3h30</td>
-            </tr>
-        </table>
-
-    </main>
-
-
-    <footer id="chao">
-    </footer>
-<script src="voos.js"></script>
-
+        <script src="voos.js"></script>
 </body>
 
 </html>
