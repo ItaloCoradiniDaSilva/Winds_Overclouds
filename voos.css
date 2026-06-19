@@ -3,10 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 :root {
---cor-primaria: white;
---cor-secundaria: goldenrod;
---cor-tercearia: gray;
+    --cor-primaria: white;
+    --cor-secundaria: goldenrod;
+    --cor-tercearia: gray;
 }
 
 /*--------------Topo--------------*/
@@ -18,12 +19,19 @@
     font-size: 150%;
     width: 63.5%;
 }
+
 .navegador {
     display: flex;
     text-decoration: none;
     color: var(--cor-tercearia);
     font-size: 100%;
     margin-right: 2%;
+}
+
+#logo {
+    width: 13.5%;
+    margin-left: 1%;
+    margin-bottom: 1%;
 }
 #logo {
     width: 13.5%;
@@ -34,36 +42,81 @@
     background: url(fundo_header.png);
     padding: 0.5%
 }
+
 .navegador:hover {
     color: var(--cor-secundaria);
 }
-#inputs{
-text-align: center;
-font-size: 30px;
+
+#inputs {
+    text-align: center;
+    font-size: 140%;
+}
+
+#inputs input{
+color: var(--cor-primaria);
+background-color: var(--cor-secundaria);
+font-size: large;
+border-radius: 10%;
 }
 
 /*--------------Meio--------------*/
-.titulo{
+.titulo {
     text-align: center;
     padding-top: 0.5%;
 }
-p{
-padding-top: 0.5%;
-font-size: 131.5%;
+
+p {
+    padding-top: 0.5%;
+    font-size: 131.5%;
 
 }
-#informacao{
-text-align: center;
-padding-top: 1.5%;
+
+#informacao {
+    text-align: center;
+    padding-top: 1.5%;
 
 }
-h1{
- font-size: 245%;
-font-style: italic;
+
+h1 {
+    font-size: 245%;
+    font-style: italic;
+}
+    
+#inputs select{
+font-size: large;
+
+}
+
+.tabelaVoos {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+th {
+    background: var(--cor-tercearia);
+    color: var(--cor-primaria);
+    padding: 1.5%;
+    border-bottom: 0.1% solid #ddd;
+    text-align: center;
+    margin-right: 3%;
+}
+
+td {
+    padding: 1.5%;
+    border-bottom: 0.1% solid #ddd;
+    text-align: center;
+    margin-right: 3%;
+}
+
+tr:hover {
+    background: rgb(204, 204, 204);
 }
 
 /*--------------Chão--------------*/
 #chao {
     background: url(fundo_header.png);
-    
+
 }

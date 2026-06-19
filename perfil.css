@@ -44,14 +44,36 @@ font-size: 30px;
 
 /*--------------Meio--------------*/
 
+.cardPerfil{
+    width: 45%;
+    margin: 2% auto;
+    background-color: white;
+    border-radius: 12px;
+    padding: 2%;
+    border: 0.2vw solid var(--cor-secundaria);
+}
+
+#saidaDados{
+    font-size: 120%;
+}
+
+#saidaDados strong{
+    color: var(--cor-tercearia);
+}
+
 .titulo{
+    text-align: center;
+    padding-top: 1%;
+    margin-bottom: 1%;
     text-align: center;
     padding-top: 0.5%;
 }
 
+
 .navegador:hover {
     color: goldenrod;
 }
+
 p{
 padding-top: 0.5%;
 font-size: 131.5%;
