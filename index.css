@@ -16,7 +16,7 @@
     justify-content: space-between;
     align-items: center;
     font-size: 150%;
-    width: 90%;
+    width: 63.5%;
 }
 .navegador {
     display: flex;
@@ -68,11 +68,10 @@
     text-decoration: none;
     background: var(--cor-secundaria);
     color: var(--cor-primaria);
-    padding: 1.2% 3%;
-    border-radius: 1%;
+    padding: 3%;
+    border-radius:36.5%;
     font-size: 140%;
     font-weight: bold;
-    transition: 0.3s;
 }
 #cadastro:hover {
     background: darkvar(--cor-secundaria);
@@ -200,7 +199,7 @@ tr:hover {
     color: var(--cor-primaria);
     margin-top: 5%;
     width: 100%;
-    padding: 5%;
+    padding: 3%;
 }
 #chao p {
 padding: 0.5%;
