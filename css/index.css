@@ -31,7 +31,7 @@
     margin-bottom: 1%;
 }
 #topo {
-    background: url(fundo_header.png);
+    background: url(/imagens/fundo_header.png);
     padding: 0.5%
 }
 .navegador:hover {
@@ -39,7 +39,7 @@
 }
 #hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4),
-     rgba(0, 0, 0, 0.4)), url(fundo_Hero.png);
+     rgba(0, 0, 0, 0.4)), url(/imagens/fundo_Hero.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -162,7 +162,7 @@ tr:hover {
     background: rgb(204, 204, 204);
 }
 .promo {
-    background: url(fundo_header.png);
+    background: url(/imagens/fundo_header.png);
     color: var(--cor-primaria);
     padding: 5%;
     border-radius: 2%;
@@ -194,7 +194,7 @@ tr:hover {
 /* ---------------- FOOTER ---------------- */
 
 #chao {
-    background: url(fundo_header.png);
+    background: url(/imagens/fundo_header.png);
     display: inline-block;
     text-align: center;
     color: var(--cor-primaria);

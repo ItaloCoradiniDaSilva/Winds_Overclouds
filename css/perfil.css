@@ -31,7 +31,7 @@
     margin-bottom: 1%;
 }
 #topo {
-    background: url(fundo_header.png);
+    background: url(/imagens/fundo_header.png);
     padding: 0.5%
 }
 .navegador:hover {
@@ -90,8 +90,53 @@ font-style: italic;
 
 /*--------------Chão--------------*/
 #chao {
-    background: url(fundo_header.png);
+    background: url(/imagens/fundo_header.png);
     
 }
 
 
+/*-------------- Responsividade --------------*/
+
+/* ---------- Tablet ---------- */
+
+@media (max-width: 1024px) {
+
+    .caixa {
+        width: 90%;
+    }
+
+    .cardPerfil {
+        width: 70%;
+    }
+}
+
+/* ---------- Smartphone ---------- */
+
+@media (max-width: 768px) {
+
+    .caixa {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+    }
+
+    #logo {
+        width: 35%;
+    }
+
+    .titulo {
+        text-align: center;
+    }
+
+    .cardPerfil {
+        width: 90%;
+        padding: 5%;
+    }
+
+    #saidaDados {
+        font-size: 100%;
+        line-height: 1.6;
+        word-wrap: break-word;
+    }
+}
