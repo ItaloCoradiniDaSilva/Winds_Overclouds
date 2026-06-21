@@ -88,12 +88,20 @@ h1{
 font-style: italic;
 }
 
-/*--------------Chão--------------*/
+/* ---------------- FOOTER ---------------- */
+
 #chao {
     background: url(/imagens/fundo_header.png);
-    
+    display: inline-block;
+    text-align: center;
+    color: var(--cor-primaria);
+    margin-top: 5%;
+    width: 100%;
+    padding: 3%;
 }
-
+#chao p {
+padding: 0.5%;
+}
 
 /*-------------- Responsividade --------------*/
 
