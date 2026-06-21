@@ -33,7 +33,11 @@
     margin-left: 1%;
     margin-bottom: 1%;
 }
-
+#logo {
+    width: 13.5%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
 #topo {
     background: url(fundo_header.png);
     padding: 0.5%
