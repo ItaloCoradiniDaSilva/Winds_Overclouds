@@ -5,7 +5,7 @@ const inRgUsuario = document.getElementById("rgUsuario");
 const inEmail = document.getElementById("emailUsuario");
 const data = document.getElementById("dataUsuário");
 const outSaida = document.getElementById("saida");
-var confirmadorLogado = 1;
+var confirmadorLogado = 0;
 
 const dateHoje = new Date();
 const dataFormatada = dateHoje.toLocaleDateString('pt-BR');
